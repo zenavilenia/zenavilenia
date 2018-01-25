@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Tutorial how to be a Fullstack Javascript Developer</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		function popup() {
+			alert("Terima Kasih!\nAnda akan mendapatkan update tutorial terbaru di email Anda.");
+		}
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Learn how to be a Fullstack Javascript Developer here!</h1>
+			<nav>
+				<ul>
+					<li><a href="#" class="current">Home</a></li>
+					<li class="dropdown"><a href="#">Tutorial</a>
+					<div class="dropdown-content">
+						<a href="tHtml.html">Tutorial HTML</a>
+						<a href="tCss.html">Tutorial CSS</a>
+						<a href="tJavascript.html">Tutorial Javascript</a>
+</div>
+					</li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>			
+			</nav>
+		</header>
+		<section>
+		<h2>Selamat Datang!</h2>
+		<p>Anda dapat belajar cara menjadi Fullstack Javascript Developer di website ini. Untuk mendapatkan update tutorial terbaru, silahkan masukan data anda pada form di bawah ini.</p>
+		<form action="#" method="post" onsubmit="popup()">
+			First Name: <br/>
+			<input type="text" name="firstName" required/> <br/>
+			Last Name: <br/>
+			<input type="text" name="lastName" required/> <br/>
+			Gender: <br/>
+			<input type="radio" name="gender" value="Male" checked/> Male <br/>
+			<input type="radio" name="gender" value="Female"/> Female <br/>
+			<input type="radio" name="gender" value="Other"/> Other <br/>
+			Email: <br/>
+			<input type="email" name="email" required/> <br/>
+			Status: <br/>
+			<select>
+				<option value="sPelajar">Pelajar</option>
+				<option value="sPekerja">Pekerja</option>
+				<option value="sHacktiv">Hacktiv8's Student</option>
+			</select> <br/>
+			Tutorial pilihan: <br/>
+			<input type="checkbox" name="tHtml"/> HTML <br/>
+			<input type="checkbox" name="tCss"/> CSS <br/>
+			<input type="checkbox" name="tJavascript"/> Javascript <br/> <br/>
+			<input type="submit" value="Daftar"/>
+		</form>
+		</section>
+		<footer>
+			&copy; 2018 Zena Vilenia
+		</footer>
+	</div>
+</body>
+</html>
